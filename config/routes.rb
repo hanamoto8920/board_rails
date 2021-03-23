@@ -6,6 +6,5 @@ get '/' => 'homes#top'
 get 'todolists/new' => 'todolists#new'
 post 'todolists' => 'todolists#create'
 get 'todolists' => 'todolists#index'
-get 'todolists/:id' => 'todolists#show', as: 'todolist'
-
+get 'todolists/:id' => 'todolists#show'
 end
